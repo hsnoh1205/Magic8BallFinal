@@ -8,13 +8,23 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.alab.magic8ball.MagicActivity">
-
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/im_ball"
+        android:src="@drawable/ball"
+        android:layout_centerHorizontal="true" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="Ask"
-        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="#FFEBEE"
+        android:textSize="20dp"
         android:id="@+id/tv_text"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+
 </RelativeLayout>
